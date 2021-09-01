@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' praise(name = "Steph", punctuation = "!")
+#' praise(name = "Phil", punctuation = "!")
 praise <- function(name, punctuation = "!"){
   glue::glue("You're the best, {name}{punctuation}")
 }
